@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<html class="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=" utf-8">
+    <title>Información Empleados</title>
+    <link rel="icon" type="image/png" href="LogoHotel1.png">
+</head>
+
+<body style="background-color: #ffffff;">
+
+    <div style="background-color:#85C1E9">
+        <h1 align="center" style="color:#ffffff" border="medium">HotelWEB - Información Empleados</h1>
+    </div>
+    <div align="center" style="background-color:#85C1E9" width="100px">
+        <a href="index.html" style="text-decoration: none white;">Regreso al menú</a>
+    </div>
+    <div style="background-color: #2471A3;" align="center">
+        </br>
+    </div>
+
+    <section class="container" aling="left">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-0 text-left">
+
+                <h3>DATOS EMPLEADO </h3>
+                
+            </div>
+        </div>
+    </section>
+    <form action="grabar.php" method="post" name="form1" style={font face="Arial black" } color{"#8cbe30"}>
+
+        <table>
+            <tr><td>Tipo de Documento</td><td><input type="text" size="30" name="tipodoc" /></td></tr>
+            <tr><td>Numero de Documento</td><td><input type="number" size="25" name="numdocu" /></td></tr>
+            <tr><td>Nombres</td><td><input type="text" size="50" name="nomb" /></td></tr>
+            <tr><td>Pais</td><td><input type="number" size="30" name="pa" /></td></tr>
+            <tr><td>Región</td><td><input type="number" size="30" name="reg" /></td></tr>
+            <tr><td>Ciudad</td><td><input type="number" size="30" name="ciud" /></td></tr>
+            <tr><td>Telefono Fijo</td><td><input type="text" size="30" name="tele" /></td></tr>
+            <tr><td>Celular</td><td><input type="text" size="30" name="cel" /></td></tr>
+            <tr><td>Correo Electronico</td><td><input type="text" size="30" name="corr" /></td></tr>
+            <tr><td>Fecha de Registro</td><td><input type="date" size="30" name="fechar" /></td></tr>
+            <tr><td>Rol</td><td><input type="number" size="30" name="rl" /></td></tr>
+            <tr><td>Contraseña</td><td><input type="text" size="30" name="contra" /></td></tr>
+        </table>
+
+     
+        
+        <br><br><input type="submit" value="GUARDAR DATOS" /></br>
+        <br><a href="consulta.html"><button type="button">CONSULTAR DATOS</button></a></br>
+        <br><a href="actualizar.html"><button type="button">ACTUALIZAR DATOS</button></a></br>
+        <br><a href="eliminar.html"><button type="button">ELIMINAR DATOS</button></a></br>
+        <br><a href="listado.php"><button type="button">LISTAR DATOS</button></a></br>
+        
+        
+     
+        
+        
+    </form>
+    </div>
+</body>
+
+</html>
